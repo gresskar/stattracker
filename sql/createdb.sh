@@ -7,4 +7,4 @@ sudo mysql -u root --execute="GRANT ALL ON stattracker.* TO stattracker@localhos
 sudo mysql -u root --execute="FLUSH PRIVILEGES;"
 
 # Import database structure
-mysql -u stattracker -h localhost -P -p stattracker < stattracker.sql
+mysql -u stattracker -h localhost -p stattracker < stattracker.sql
