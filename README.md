@@ -2,6 +2,14 @@
 
 A TF2 SourceMod plugin for tracking stats. Useful for leaderboards and achievements.
 
+The `src/` directory contains the SourcePawn source code for StatTracker
+
+The `bin/` directory contains the pre-compiled StatTracker binary executable
+
+The `sql/` directory contains SQL scripts for intializing a database
+
+The `www/` directory contains PHP scripts you'd place in your web server's docroot
+
 ## What does it track?
 
 **All classes:**
